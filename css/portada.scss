@@ -1,0 +1,33 @@
+.portada{
+    max-width: 1800px;
+    margin: 0 auto!important;
+    
+}
+
+.portadaimg{
+    background-image: url(../assets/img/ejemplo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px 0px 80px 0px;
+}
+
+@media (min-width: 992px){
+.col-lg-6 {
+    flex: 0 0 40%!important;
+}
+}
+
+p.lead{
+    font-family: 'Helvetica Neue Roman';
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.portadaimg2{
+    background-image: url(../assets/img/ejemplo3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px 0px 80px 0px;
+}

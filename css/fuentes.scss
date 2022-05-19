@@ -1,0 +1,97 @@
+/* headlines, titles, sub headers, leaning copy*/
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../assets/fonts/NeueHelveticaBQ-Bold.woff");
+    ;
+}
+
+/* body copy and tabular data*/
+@font-face {
+    font-family: "Helvetica Neue Roman";
+    src: url("../assets/fonts/NeueHelveticaBQ-Roman.woff");
+}
+
+/* menu*/
+
+.navbar-nav .nav-link {
+    font-family: 'Helvetica Neue';
+    font-size: 16px;
+    color: white;
+    text-align: center !important;
+
+    &:hover {
+        color: var(--orangebrand) !important;
+    }
+
+}
+
+.navbar-nav .nav-link.active {
+    color: white !important;
+
+    &:hover {
+        color: var(--orangebrand) !important;
+    }
+}
+
+
+/* titulos */
+
+
+h1 {
+    font-family: "Helvetica Neue";
+    font-size: 50px !important;
+    color: var(--orangebrand) !important;
+    margin-bottom: 30px !important;
+  
+}
+
+h2 {
+    font-family: "Helvetica Neue";
+    font-size: 50px !important;
+    margin-bottom: 4rem !important;
+
+}
+
+h3 {
+    font-family: "Helvetica Neue";
+    font-size: 18px !important;
+    margin-bottom: 4rem !important;
+}
+
+
+
+h5{
+    font-family: "Helvetica Neue";
+    font-size: 16px!important;
+    color: var(--orangebrand) !important;
+    padding: 30px 30px 30px 0px !important;
+    
+}
+
+
+/* textos footer */
+
+.text-footer{
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    line-height: 24px;
+    
+    &:hover {
+        color: var(--orangebrand) !important;
+        text-decoration: underline;
+    }
+
+}
+
+
+
+/* resp */
+
+@media only screen and (max-width: 981px) {
+    h1{
+      font-size: 30px!important;
+    }
+    h2{
+        font-size: 30px!important;
+    }
+    }

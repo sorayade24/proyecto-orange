@@ -1,0 +1,41 @@
+.btn-orange {
+    color: #000;
+    background-color: #007bff00;
+    border: 2px solid #000000;
+    border-radius: 0px!important;
+    font-family: 'Helvetica Neue';
+    font-size: 16px;
+    padding: 15px 20px;
+
+    &:hover {
+        color: white;
+        background-color: #000000;
+        border: 2px solid white;
+      }
+    }
+  
+    .navbar-toggler-icon {
+      
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
+        
+     
+      }
+
+      .row{
+          padding-left: 0px!important;
+      }
+
+      .btn-outline-success{
+
+        border-radius: 0px!important;
+        border: 2px solid white!important;
+        font-family: 'Helvetica Neue'!important;
+        color: white!important;
+        padding: 10px 20px 10px 20px!important;
+       
+        &:hover{
+            background-color: var(--orangebrand)!important;
+            color: black!important;
+            border: 2px solid black!important;
+        }
+      }
