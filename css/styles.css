@@ -266,7 +266,7 @@ p.lead {
 }
 @media (max-width: 420px) {
   .card {
-    min-height: 300px;
+    min-height: 350px;
   }
 }
 .card.card-has-bg {
