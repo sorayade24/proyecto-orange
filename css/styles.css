@@ -43,7 +43,13 @@ h2 {
 h3 {
   font-family: "Helvetica Neue";
   font-size: 18px !important;
-  margin-bottom: 4rem !important;
+  margin-bottom: 2rem !important;
+}
+
+h4 {
+  font-family: "Helvetica Neue" !important;
+  font-size: 20px !important;
+  margin-top: 1rem !important;
 }
 
 h5 {
@@ -62,6 +68,12 @@ h5 {
 .text-footer:hover {
   color: var(--orangebrand) !important;
   text-decoration: underline;
+}
+
+/* textos */
+.texto-destacados {
+  font-family: "Helvetica Neue Roman";
+  font-size: 16px !important;
 }
 
 /* resp */
@@ -131,6 +143,21 @@ p.lead {
   border: 2px solid white;
 }
 
+.btn-orange2 {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 0px !important;
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  padding: 15px 20px;
+}
+.btn-orange2:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
@@ -195,7 +222,7 @@ p.lead {
 .destacadoscaja {
   max-width: 1800px !important;
   margin: 0 auto !important;
-  text-align: center;
+  text-align: left;
 }
 
 .destacadoscaja img {
