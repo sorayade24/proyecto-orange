@@ -98,6 +98,16 @@ h5{
     margin-right: 50px;
 }
 
+/* links */
+
+a.card-text{
+    color: var(--orangebrand)!important;
+    text-decoration: none!important;
+    &:hover{
+        text-decoration: underline!important;
+    }
+}
+
 
 
 

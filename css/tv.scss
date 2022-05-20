@@ -1,0 +1,65 @@
+.tvcaja{
+    max-width: 1800px!important;
+    margin: 0 auto!important;
+}
+
+.lead{
+    font-weight: bold!important;
+}
+
+.card{
+    border: none;
+   overflow:hidden;
+   border-radius:0px!important;
+   min-height:450px;
+   margin-bottom: 20px;
+  
+   @media (max-width: 768px) {
+    min-height:350px;
+  }
+  
+  @media (max-width: 420px) {
+    min-height:300px;
+  }
+  
+   &.card-has-bg{
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+  
+  }
+   
+   .card-meta{color:orange}
+   
+  
+  }
+
+  .c1{
+      background-image: url(../assets/img/ejemplo9.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  .c2{
+    background-image: url(../assets/img/ejemplo10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.c3{
+    background-image: url(../assets/img/ejemplo11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-title {
+    color: var(--orangebrand)!important;
+    font-size: 24px!important;
+    font-family: 'Helvetica Neue';
+}
+
+.card-text{
+    font-family: 'Helvetica Neue Roman';
+    font-size: 16px;
+}
